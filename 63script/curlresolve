@@ -1,0 +1,1 @@
+curl -vv --resolve $2:443:$1 https://$2 -o /dev/null
