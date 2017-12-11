@@ -1,2 +1,0 @@
-#!/bin/bash
-ssh -oProxyCommand="nc -x 127.0.0.1:7070 %h %p" -i ~/.ssh/knownsec_wub_log -p 36000 log@$1
